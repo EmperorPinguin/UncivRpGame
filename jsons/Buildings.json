@@ -129,7 +129,6 @@
 		"cost": 1,
 		"isNationalWonder": true,
 		"uniques": ["+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Sword] units>", "[+30]% [Production] [in puppeted cities]"],
-		"requiredNearbyImprovedResources": ["Bulls"],
 		"requiredTech": "The Wheel",
 		"civilopediaText": [
 			{"text": "Alone we stand to weake to this great foe from the South, oh leader! Let us unite with smaller tribes close to us, and fight the invader together!"}
