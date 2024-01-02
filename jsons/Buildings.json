@@ -131,7 +131,7 @@
 		"uniques": ["+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Sword] units>", "[+30]% [Production] [in puppeted cities]"],
 		"requiredTech": "The Wheel",
 		"civilopediaText": [
-			{"text": "Alone we stand to weake to this great foe from the South, oh leader! Let us unite with smaller tribes close to us, and fight the invader together!"}
+			{"text": "Alone we stand too weak to this great foe from the South, oh leader! Let us unite with smaller tribes close to us, and fight the invader together!"}
 		]
 
 	},
@@ -148,7 +148,6 @@
 		"civilopediaText": [
 			{"text": "A boulangerie is a French bakery. As opposed to a pâtisserie, they must bake their bread on-premises to hold the title of 'boulangerie' in France. They bake a great variety of products, their most famous one being the 'baguette'."}
 		]
-
 	},
 	{
 		"name": "Olive Press",
