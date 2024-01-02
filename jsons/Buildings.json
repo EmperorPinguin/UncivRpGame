@@ -107,6 +107,80 @@
 		"isWonder": true,
 		"uniques": ["Automatically built in all cities where it is buildable","Only available <in cities with a [Palace]>","Free [Giant Niiponi] appears"],
 	},
+	{
+		"name": "Bread and Circuses",
+		"uniqueTo": "Rome",
+		"cost": 1,
+		"maintenance": 2,
+		"happiness": 3,
+		"food": 3,
+		"isNationalWonder": true,
+		"uniques": ["[+25]% Production when constructing [Happiness] buildings [in all cities]"],
+		"requiredNearbyImprovedResources": ["Bulls"],
+		"requiredTech": "Horseback Riding",
+		"civilopediaText": [
+			{"text": "Oh great Ceasar! Our citizens are unhappy! Let us organise some grand games, with bull fighting, gladiator fights and feasts for everyone! That will cheer up the masses, and avoid rebellion."}
+		]
+
+	},
+	{
+		"name": "Alemanni Confederation",
+		"uniqueTo": "Germany",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": ["+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Sword] units>", "[+30]% [Production] [in puppeted cities]"],
+		"requiredNearbyImprovedResources": ["Bulls"],
+		"requiredTech": "The Wheel",
+		"civilopediaText": [
+			{"text": "Alone we stand to weake to this great foe from the South, oh leader! Let us unite with smaller tribes close to us, and fight the invader together!"}
+		]
+
+	},
+	{
+		"name": "Boulangerie",
+		"uniqueTo": "France",
+		"replaces": "Water Mill",
+		"maintenance": 2,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "The Wheel"
+		"civilopediaText": [
+			{"text": "A boulangerie is a French bakery. As opposed to a pâtisserie, they must bake their bread on-premises to hold the title of 'boulangerie' in France. They bake a great variety of products, their most famous one being the 'baguette'."}
+		]
+
+	},
+	{
+		"name": "Olive Press",
+		"uniqueTo": "Spain",
+		"cost": 100,
+		"maintenance": 1,
+		"production": 1,
+		"food": 1,
+		"isNationalWonder": true,
+		"uniques": ["[+1 Production, +1 Food] from [Oils] tiles [in this city]"],
+		"requiredNearbyImprovedResources": ["Oils"],
+		"requiredTech": "The Wheel",
+		"civilopediaText": [
+			{"text": "The olive press is the place where brought to to be turned into olive oil. Several designes have been used throughout history, the most common type used in the classical era consisted of large cilindrical mounted by an upper milling stone, usually powered by an animal, used to grind the olives and their pits into a pulp."}
+		]
+
+	},
+	{
+		"name": "Zulia Ababa University",
+		"uniqueTo": "Ethiopia",
+		"replaces": "National College",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["When declaring friendship, both parties gain a [20]% boost to great person generation","Allied City-States provide [Science] equal to [20]% of what they produce for themselves","Can only be built [in capital]","Requires a [Library] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Philosophy",
+		"civilopediaText": [
+			{"text": "A prestigious university in the center of Zulia Ababa, known for it's numerous international exchange programs."}
+	},
 //Classification Bonuses
 
 	{
