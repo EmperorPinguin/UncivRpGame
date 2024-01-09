@@ -255,6 +255,20 @@
 		"techRequired": "Construction",
 		"shortcutKey": "F"
 	},
+	{
+		"name": "Iron Pillar of Delhi",
+		"uniqueTo": "India",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 10,
+		"uniques": ["Cannot be built on [Bonus resource] tiles",
+			"[+1 Faith] for each adjacent [Farm]",
+			"[+1 Culture] for each adjacent [Pasture]",
+			"[+1 Science] for each adjacent [Mine]",
+			"[+1 Gold] for each adjacent [Plantation]",
+			"Provides [1] [Iron]",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"techRequired": "Iron Working",
+	},
 	/*{
 		"name": "Festival Plaza",
 		"uniqueTo": "India",
